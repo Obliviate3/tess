@@ -1,0 +1,454 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+*{
+    color: inherit;
+    text-decoration: none;
+}
+.sosmed{
+    padding: 5px 0;
+    background-color: #148f77;
+}
+/**warna ikon sosmed*/
+.sosmed ul li{
+    display: inline-block;
+    color: #ffff;
+    margin-right: 10px;
+
+}
+.container{
+    width: 80%;
+     margin: auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*tulisan obliviate*/
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #148f77;
+} 
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #148f77;
+    color: #ffff;
+}
+.active:hover{
+    color: #148f77;
+}
+.activekontak:hover{
+    color: black;
+}
+.banner{
+    height: 60vh;
+    background-image: url('../obliviate.png');
+    background-size: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 143, 119, .6);
+}
+.banner h2{
+    color: #ffff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid#ffff;
+}
+section{
+    padding: 50px 0;
+}
+.full-slider-box{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.f-slide-1{
+    background-image: url(../Animation---3.gif);
+}
+.slider-text-container{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+.f-slider-text-1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.f-slider-text-1 strong{
+    color: black;
+    font-size: 3rem;
+    line-height: 55px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.f-slider-text-1 span{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: #666666;
+    font-size: 1.2rem;
+}
+.f-slide-2{
+    background-image: url(../video.jpeg);
+}
+.f-slider-text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.f-slider-text-2 strong{
+    color: black;
+    align-items: center;
+    font-size: 3rem;
+    line-height: 55px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.f-slider-text-2 span{
+    align-items: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: yellow;
+    font-size: 1.2rem;
+}
+.f-slide-3{
+    background-image: url(../copywriting.jpeg);
+}
+.f-slider-text-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.f-slider-text-3 strong{
+    color: black;
+    align-items: center;
+    font-size: 3rem;
+    line-height: 55px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.f-slider-text-3 span{
+    align-items: center;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: yellow;
+    font-size: 1.2rem;
+}
+.f-slide-4{
+    background-image: url(../grphic.jpeg);
+}
+.f-slider-text-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.f-slider-text-4 strong{
+    color: black;
+    align-items: center;
+    font-size: 3rem;
+    line-height: 55px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.f-slider-text-4 span{
+    align-items: center;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: yellow;
+    font-size: 1.2rem;
+}
+.f-slide-5{
+    background-image: url(../logo.jpeg);
+}
+.f-slider-text-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.f-slider-text-5 strong{
+    color: black;
+    align-items: center;
+    font-size: 3rem;
+    line-height: 55px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.f-slider-text-5 span{
+    align-items: center;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: yellow;
+    font-size: 1.2rem;
+}
+/**tulisan contact*/
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #148f77;
+    margin-bottom: 20px;
+}
+footer{
+    padding: 30px 0;
+    background-color: #333;
+    color: #ffff;
+}
+/*label  kontak*/
+.label{
+    background-color:#148f77;
+    color: #ffff;
+}
+/*letak kontak*/
+.box{
+    color:#148f77;
+}
+.box .col-4{
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.box .col-4 h4{
+    margin: 10px 0;
+    height: 1px;
+}
+/**motto*/
+.motto h3{
+    color: #148f77;
+    padding: 2px 2px;
+    text-align: center;
+}
+/**berita*/
+.text{
+    width: 50%;
+    color:#333;
+    float: left;
+}
+.text2{
+    width: 50%;
+    color:#333;
+    float: left;
+}
+.text .col-2{
+    padding: 5px;
+    border: #148f77 1px;
+}
+.img-pln{
+    width: 450px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.text-bu1{
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 25px;
+    padding: 10px;
+}
+.brut{
+    font-size: 35px;
+    color: rgba(20, 143, 119, .6);
+}
+.foto{
+    width: 700px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.vided{
+    background-color: white;
+    box-shadow: 2px 1px 1px ;
+    border: 4px solid #148f77;
+    margin: 20px;
+    padding: 10px;
+}
+.video{
+    width: 800px;
+    margin: 10px auto;
+    border: 2px  bisque;
+}
+.tugas{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.submit{
+    text-align: right;
+    padding-right: 10px;
+}
+.gambar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+    height: 60%;
+}
+.pln h1{
+    color: grey;
+    padding: 2px 2px;
+    text-align: center;
+}
+.ikonabout{
+    text-align: center;
+}
+.boxx{
+    color: #148f77;
+}
+.boxx::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.boxx .kolom{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.inul{
+    width:  305px;
+    height: 400px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+    background-image: url(../inul.jpeg);
+    background-position: center;
+    background-size: 350px ;
+}
+.boxx .kolom h4{
+    margin: 20px 0;
+}
+.jeje{
+    width:  305px;
+    height: 400px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+    background-image: url(../jeje.jpeg);
+    background-position: center;
+    background-size: 350px ;
+}
+.faizal{
+    width:  305px;
+    height: 400px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+    background-image: url(../faizal.jpeg);
+    background-position: center;
+    background-size: 350px ;
+}
+.nando{
+    width:  305px;
+    height: 400px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+    background-image: url(../nando.jpeg);
+    background-position: center;
+    background-size: 350px ;
+}
+.obliviate{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+.sejarahobli h1{
+    text-align: center;
+}
+.penjelasan{
+    word-spacing: 2px;
+    line-height: 24px;
+}
+.bagian{
+    margin-left: 100px;
+    line-break: 24px;
+}
+.sejarah{
+    font-size: 35px;
+    color: rgba(20, 143, 119, .6);
+}
+.container1{
+    width: 500px;
+    padding-left: 50px;
+  }
+  .facebook,.twitter,.google-plus{
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .facebook{
+    width: 40px;
+    height: 40px;
+    background-color: #2a4299;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+  }
+  .twitter{
+    width: 40px;
+    height: 40px;
+    background-color: #3899fe;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+  }
+  .google-plus{
+    width: 40px;
+    height: 40px;
+    background-color: #fb2929;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+  }
+.bawahartikel{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
